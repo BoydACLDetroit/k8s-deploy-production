@@ -101,8 +101,8 @@ spec:
           name: HTTPS
    - match:
      - port: 443
-      sni_hosts:
-      - sg-us-west-2-54-186-88-199-prod-us-west-2-oregon.live.ruxit.com
+       sni_hosts:
+       - sg-us-west-2-54-186-88-199-prod-us-west-2-oregon.live.ruxit.com
     route:
     - destination:
         host: sg-us-west-2-54-186-88-199-prod-us-west-2-oregon.live.ruxit.com
