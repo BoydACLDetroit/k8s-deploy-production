@@ -99,10 +99,10 @@ spec:
         port:
           number: 443
           name: HTTPS
-   - match:
-     - port: 443
-       sni_hosts:
-       - sg-us-west-2-54-186-88-199-prod-us-west-2-oregon.live.ruxit.com
+  - match:
+    - port: 443
+      sni_hosts:
+      - sg-us-west-2-54-186-88-199-prod-us-west-2-oregon.live.ruxit.com
     route:
     - destination:
         host: sg-us-west-2-54-186-88-199-prod-us-west-2-oregon.live.ruxit.com
